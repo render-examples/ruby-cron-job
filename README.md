@@ -1,4 +1,4 @@
-test 1
+test 2
 # Ruby Cron Job
 
 This is a simple Ruby cron job example for [Render](https://render.com).
