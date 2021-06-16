@@ -1,0 +1,8 @@
+services:
+- type: cron
+  name: cron-test
+  env: ruby
+  plan: Bloomscape Cron Jobs
+  schedule: "*/12 * * * *"
+  buildCommand: bundle install
+  startCommand: bundle exec ruby main.rb
